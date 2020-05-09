@@ -1,18 +1,27 @@
 {
   "description": "Lets user easily close unwanted popups. Icon by Darius Dan https://www.flaticon.com/authors/darius-dan",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Vanisher",
   "version": "0.1",
   "homepage_url": "https://github.com/matkob/vanisher",
   "icons": {
-    "48": "icons/vanisher.png"
+    "48": "icons/i48.png",
+    "96": "icons/i96.png"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*/*"],
-      "js": ["vanisher.js"]
+  "background": {
+    "scripts": [
+      "vanisher.js"
+    ]
+  },
+  
+  "commands": {
+    "toggle_mode": {
+      "suggested_key": {
+        "default": "Shift+Alt+C"
+      },
+      "description": "Toggle cleaning mode"
     }
-  ]
+  }
 
 }

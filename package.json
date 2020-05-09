@@ -1,0 +1,19 @@
+{
+  "name": "vanisher",
+  "version": "0.1.0",
+  "description": "Firefox extension that lets users easily close annoying pop ups",
+  "main": "vanisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matkob/vanisher.git"
+  },
+  "author": "matkob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matkob/vanisher/issues"
+  },
+  "homepage": "https://github.com/matkob/vanisher#readme"
+}

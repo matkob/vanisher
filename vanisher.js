@@ -7,4 +7,4 @@ browser.commands.onCommand.addListener(command => {
             console.log('cleaning mode', cleaningMode)
             break
     }
-  })
+})
